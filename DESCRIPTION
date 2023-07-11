@@ -1,0 +1,18 @@
+Package: scRMT
+Type: Package
+Title: Scripts for manuscript,  scRNAseq analysis by RMT methods
+Version: 0.1.0
+Author: Sivan Leviyang
+Maintainer: Sivan.Leviyang@georgetown.edu
+Description: Analysis of single cell RNAseq using random matrix methods
+License: Apache 2.0
+Encoding: UTF-8
+LazyData: true
+Depends: dplyr, ggplot2, Seurat, splatter,
+          deSolve,
+          ggpubr
+Imports:  plyr,here,irlba,data.table,stringr,
+          Matrix,  umap, BiocNeighbors,latex2exp
+          
+          
+
